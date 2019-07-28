@@ -1,0 +1,38 @@
+{
+  "name": "hash-store",
+  "version": "0.0.1",
+  "description": "Hash Store Library",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "knex": "^0.19.1",
+    "mysql2": "^1.6.5",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "husky": "^3.0.1",
+    "jest": "^24.8.0",
+    "lint-staged": "^9.2.1",
+    "prettier": "1.18.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will-garrett/hash-store.git"
+  },
+  "keywords": [
+    "hash",
+    "storage"
+  ],
+  "author": "Will Garrett <the+coder@willgarrett.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/will-garrett/hash-store/issues"
+  },
+  "homepage": "https://github.com/will-garrett/hash-store#readme"
+}
